@@ -1,0 +1,8 @@
+from tkinter import*
+from main import*
+
+class functions:
+    def addFn(event):
+        title = label(mainFrame , text="add a book")
+        title.pack()
+
